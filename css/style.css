@@ -1,0 +1,30 @@
+body { 
+    margin: 0;
+    padding: 0;
+}
+li{
+    position: flex;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact a{
+    text-decoration: none;
+    color: #000;
+    text-shadow: 7px 7px 7px  #666;
+}
+a:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.h1 {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    text-shadow: 7px 7px 7px  #666;
+    font-family: 'Creepster', cursive;
+    font-family: 'Sirin Stencil', cursive;
+}

@@ -3,3 +3,59 @@ background: #0f0c29;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
+/*Media queri img1*/
+@media screen and (max-width: 767px) 
+{
+     .rounded {
+        display: none;
+     }
+}
+@media screen and (min-width: 768px) 
+{
+     .rounded {
+        height: 150px;
+        width: 190px;
+     }
+}
+@media screen and (min-width: 1024px) 
+{
+     .rounded {
+        height: 125px;
+        width: 200px;
+     }
+}
+
+/*contenedor proposito*/
+#prop {
+    height: 70px;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+#text-prop {
+    padding: 15px;
+}
+
+#img-rounded {
+    width: 400px;
+    height: 325px;
+}
+
+/*Media queri de uso*/
+@media screen and (min-width: 400px) 
+{
+     #uso {
+        margin-top: -16%;
+     }
+}
+@media screen and (min-width: 768px) 
+{
+     #img-rounded {
+        width: 300px;
+        height: 270px;
+     }
+    #uso {
+        margin-top: 1%;
+    }
+}

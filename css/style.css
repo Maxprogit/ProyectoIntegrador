@@ -42,8 +42,15 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     height: 325px;
 }
 
+@media screen and (min-width: 300px) 
+{
+     #text-prop {
+        padding: 5px;
+     }
+}
+
 /*Media queri de uso*/
-@media screen and (min-width: 400px) 
+@media screen and (min-width: 300px) 
 {
      #uso {
         margin-top: -16%;
@@ -58,4 +65,12 @@ background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+
     #uso {
         margin-top: 1%;
     }
+}
+
+@media screen and (min-width: 1024px) 
+{
+     #img-rounded {
+        height: 325px;
+        width: 400px;
+     }
 }
